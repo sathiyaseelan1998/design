@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+
+    background-color: crimson;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+.title{
+    margin-bottom: 20px;
+}
+.menu{
+    margin-bottom: 20px;
+    background-color: rgb(207, 202, 202);
+    height: 40px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    list-style: none;
+    line-height: 40px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(53, 51, 51);
+}
+.form{
+    margin-top: 20px;
+    opacity: .7;
+}
+.text{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.text input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(117, 115, 115);
+    width: 100%;
+}
+.double{
+    display: flex;
+    gap: 25px;
+   
+}
+.btn{
+    text-align: center;
+    
+}
+.btn button{
+    height: 35px;
+    width: 85px;
+    border-radius: 20px;
+    background-color: crimson;
+    color:white ;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    box-shadow: 5px 0px 5px 0px black;
+}
+ul li{
+    position: relative;
+    padding: 0px 20px;
+    text-align: center;
+  
+}
+ul li::before{
+    content: "";
+    height: 3px;
+    width: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: all 0.5s ease;
+}
+ul li:hover::before{
+    width: 100%;
+    background-color:rgb(146, 74, 212) ;
+}
