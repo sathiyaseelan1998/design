@@ -16,6 +16,7 @@ header{
     display: flex;
     justify-content: space-between;
     line-height: 50px;
+    position: fixed;
 }
 header>a i{
     color: #4cd137;
