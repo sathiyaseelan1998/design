@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    display: flex;
+    margin: 20px;
+}
+.img,.content{
+    width: 50%;
+}
+.content{
+    margin-top: 25px;
+}
+.img{
+    height: 620px;
+    background-image: url("BEATS.jpg");
+    background-size: cover;
+    background-position: 100%;
+    object-fit: cover;
+}
+.content >p{
+    text-transform: uppercase;
+    color: dodgerblue;
+}
+.content >h3{
+    font-weight: normal;
+    margin:20px 0px;
+    color: rgb(104, 96, 96);
+}
+.para{
+    margin-bottom: 20px;
+    color: rgb(104, 96, 96);
+}
+.box p{
+    color: rgb(104, 96, 96);
+}
+.box .boxs{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.box .boxs:nth-child(2){
+    background-color: rgb(228, 58, 58);
+}
+.box .boxs:nth-child(3){
+    background-color: rgb(75, 75, 214);
+}
+.box .boxs:nth-child(4){
+    background-color: rgb(32, 31, 31);
+}
+#icon{
+    text-align: center;
+    position: relative;
+    bottom: 9px;
+}
+#icon i{
+    
+    line-height: 30px;
+    color: white;
+}
+.btn{
+    margin: 20px 0px;
+    color: rgb(104, 96, 96);
+}
+.btn button{
+    padding: 5px 10px;
+    margin-top: 7px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(163, 153, 153);
+    color: rgb(104, 96, 96);
+}
+.btn ~span{
+    color: dodgerblue;
+}
+.cart{
+    margin-top: 20px;
+}
+.cart button{
+    padding: 8px 10px;
+    background-color: rgb(104, 175, 33);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+}
+.cart span{
+    color: rgb(104, 96, 96);
+}
