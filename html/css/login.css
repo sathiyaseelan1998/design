@@ -22,7 +22,7 @@ body{
 }
 
 .image{
-    background-image: url("login.jpg");
+    background-image: url("../image/login.jpg");
     width: 50%;
     background-position: center;
     background-size: cover;
