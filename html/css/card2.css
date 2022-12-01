@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+    color: rgb(43, 41, 41);
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(63,94,251);
+  background: radial-gradient(rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.container{
+    width: 300px;
+    height: 280px;
+    padding: 10px;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    right: 40%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/virat.JPG);
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.info{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info .location p{
+    display:inline;
+    padding-left: 5px;
+}
+.info .location a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.info h5{
+    color: rgb(71, 71, 148);
+} 
+.count{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.count .box h5{
+    text-align: center;
+}
+.count .box p{
+   font-size: 14px;
+   text-transform: capitalize;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.icons span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.icons a{
+    text-decoration: none;
+    color:white;
+   line-height: 40px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+}
+.btn button{
+    height: 30px;
+    width: 100px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 10px 0 10px 0;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.btn button:nth-child(1){
+    background: linear-gradient(50deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+ 
+}
+.btn button:nth-child(2){
+    background: linear-gradient(45deg, red, blue);
+ 
+}
+.icons span:nth-child(1){
+    background-color: rgb(0, 172, 237); 
+}
+.icons span:nth-child(2){
+     background-color: rgb(0, 172, 237); 
+}
+.icons span:nth-child(2){
+    background-color: rgb(59, 89, 152);
+}
+.icons span:nth-child(3){
+    background-color: rgb(188, 42, 141);
+}
+.icons span:nth-child(4){
+    background-color: rgb(221, 75, 57); 
+}
+.icons span:nth-child(5){
+    background-color:rgb(240, 240, 47);
+}
+.icons span:nth-child(6){
+    background-color: rgb(5, 91, 122); 
+}
