@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    background-image: url("../image/bgg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    padding: 0 0px 0px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    margin-top: 30px;
+}
+.form .title{
+   margin-bottom: 10px;
+}
+.form .group{
+    margin-bottom: 10px;
+}
+.form .group input
+{
+    border:none;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+.img img{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    width: 90px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: tomato;
+    color: white;
+    transition: .5s;
+}
+.btn button:focus{
+    transform: scale(1.2);
+}
+.log{
+    margin-top: 10px;
+    position: relative;
+}
+.log::before{
+    content: " ";
+    height: 1px;
+    width: 100%;
+    background-color: rgb(156, 156, 156);
+    position: absolute;
+    bottom:-20px;
+}
+.log::after{
+    content: "OR";
+    height: 35px;
+    width: 35px;
+    background-color:white;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    bottom:-40px;
+    color: black;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid gray;
+}
+.para{
+    margin-top: 20px;
+}
+.icons{
+    margin-top: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+}
+.icons a:nth-child(1){
+    background-color: #dd4b39;
+}
+.icons a:nth-child(2){
+    background-color: #3B5998;
+}
+.icons a:nth-child(3){
+    background-color: #55ACEE;
+}
