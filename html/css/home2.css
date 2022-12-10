@@ -33,7 +33,7 @@ body{
 }
 .container .menu ul li{
    display: inline;
-    z-index: 98;
+    z-index: 99;
 }
 .container .menu ul li{
     margin-left: 25px;
