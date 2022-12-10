@@ -17,29 +17,81 @@ body{
 .container{
     width: 100vw;
     height: 100vw;
+    background-color: black;
+    opacity: .8;
 }
-.container .menu ul {
+.menu{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color:rgb(179, 55, 11);
     color: white;
-    height: 40px;
+    height: 50px;
+}
+.logo{
+    margin-left: 10px;
+    line-height: 50px;
 }
 .container .menu ul li{
+   display: inline;
+    z-index: 99;
+}
+.container .menu ul li{
+    margin-left: 25px;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
     list-style: none;
+}
+
+.container .menu .input{
+    line-height: 50px;
+    margin:0 15px 0 15px;
+    display: inline;
+}
+.container .menu input{
+    height: 25px;
+    width: 130px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    padding-left: 10px;
 }
 .container .menu ul li a{
     text-decoration: none;
     color: white;
 }
- .container .content .para{
-   display: flex;
-   flex-direction: column;
-    justify-content: center;
+.container .content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+   text-align: center;
+   justify-content: center;
     align-items: center;
+    color: white;
+}
+.container .content .para h2{
+    margin-bottom: 20px;
 }
 .container .content .para p{
-    text-align: center
+    width: 900px;
+    margin: 10px;
+    line-height: 25px;
+}
+.container .content .para button{
+    height: 35px;
+    width: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    color: white;
+    margin-top: 30px;
+}
+button:nth-child(1){
+    background-color: rgb(212, 43, 14);
+}
+button:nth-child(2){
+    background-color: rgb(90, 170, 10);
 }
