@@ -41,6 +41,10 @@ body{
     line-height: 50px;
     list-style: none;
 }
+.container .menu ul li a:hover{
+    color: aqua;
+    transition: .7s;
+ }
 
 .container .menu .input{
     line-height: 50px;
