@@ -15,7 +15,6 @@ body{
 .container{
     width: 700px;
     height: 400px;
-    background-color: red;
     display: flex;
     column-gap: 20px;
     justify-content: center;
@@ -58,6 +57,7 @@ body{
 .box2{
     background-color: palevioletred;
     color: white;
+    border: 1px solid black;
 }
 .box2 a{
     color: white;
