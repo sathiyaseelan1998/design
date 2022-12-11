@@ -47,6 +47,14 @@ body{
     border-radius: 20px;
     text-transform: uppercase;
 }
+.box button:hover{
+    background-color: rgb(80, 79, 79);
+    transition: .5s;
+    cursor: pointer;
+}
+.box:hover{
+    transform: scale(1.1);
+}
 .box1 button,.box3 button{
     background-color: black;
     color: white;
