@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<head>
+    <title>FORM</title>
+    <link rel="icon" type="image/x-icon" href="s.png">
+</head>
+<body style=" display: flex;justify-content: center;align-items: center;background-color:dimgray;">
+        <div style="width: 60%; border: none; padding: 20px;background-color: hsla(0, 0%, 0%, 0.377);color: white;border-radius: 20px;">
+        <h3 style="text-align: center;margin-top:-10px;color: gold;">Registration Form</h3>
+            <form action="#" autocomplete="off" style="display: flex;flex-wrap: wrap;gap: 20px;">
+                <fieldset style="width: 100%;border-radius: 20px;">
+                    <legend>Personal Info</legend>
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>
+                                <label for="name">Name</label>
+                            </td>
+                            <td>
+                                <input type="text" id="name" placeholder="Enter Name" autofocus>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                            </td>
+                            <td>
+                                <input type="email" id="email" placeholder="Enter Email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password">Password</label>
+                            </td>
+                            <td>
+                                <input type="password" id="password" placeholder="Enter Password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>Gender</label>
+                            </td>
+                            <td>
+                                <input type="radio" id="male" value="male" name="gender">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" value="female" name="gender">
+                                <label for="female">Female</label>
+                                <input type="radio" id="other" value="other" name="gender">
+                                <label for="other">Others</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="mobile">Mobile</label>
+                            </td>
+                            <td>
+                                <input type="text" id="mobile" placeholder="Enter Mobile No">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="dob">Date Of Birth</label>
+                            </td>
+                            <td>
+                                <input type="date" id="dob" placeholder="Enter Date Of Birth">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+               
+                <fieldset style="width: 46%;border-radius: 20px;">
+                    <legend>Education</legend>
+                    <table style="width: 100%;">
+                        <tr>
+                            <td>
+                                <label for="level">Education Level</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="ten" value="10">
+                                <label for="ten">10<sup>th</sup></label>
+                                <input type="checkbox" id="twele" value="12">
+                                <label for="twele">12<sup>th</sup></label>
+                                <input type="checkbox" id="ug" value="ug">
+                                <label for="ug">UG</label>
+                                <input type="checkbox" id="pg" value="pg">
+                                <label for="pg">PG</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="institution">Institution</label>
+                            </td>
+                            <td>
+                                <input type="text" id="Institution" placeholder="Enter Institution Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="resume">Resume</label>
+                            </td>
+                            <td>
+                                <input type="file" id="resume">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset style="width: 43%;border-radius: 20px;">
+                    <legend>Certificate</legend>
+                    <table>
+                <tr>
+                    <td>
+                        <label for="ncc">NCC</label>
+                    </td>
+                    <td>
+                        <input type="file" id="ncc">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nss">NSS</label>
+                    </td>
+                    <td>
+                        <input type="file" id="nss">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="leo">LEO</label>
+                    </td>
+                    <td>
+                        <input type="file" id="leo">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="width: 100%;border-radius: 20px;">
+            <legend>Address</legend>
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        <label for="area">Address</label>
+                    </td>
+                    <td>
+                        <textarea id="area" cols="35" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="district">District</label>
+                    </td>
+                    <td>
+                        <select id="district">
+                            <option value="trichy">Trichy</option>
+                            <option value="madura">Madura</option>
+                            <option value="chennai" selected>Chennai</option>
+                            <option value="salem" >Salem</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pin">Pincode</label>
+                    </td>
+                    <td>
+                        <input type="text" id="dob" placeholder="Enter Pincode">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+                <div style="text-align: center;margin-top:10px;width: 100%;">
+                    <input type="submit" value="Save" style="background-color: olivedrab;width: 100px;height: 30px;border-radius: 20px;color: white;">
+                    <input type="reset" value="Cancel" style="background-color: tomato;width: 100px;height: 30px;border-radius: 20px;color: white;">
+                </div>
+            </form>
+        
+    </div>
+</body>
+</html>
