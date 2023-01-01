@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    animation: fire;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+.content{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    transition: 3s;
+    text-shadow: 0 0 5px #eb4d4b,
+    0 0 25px #eb4d4b,
+    0 0 50px #eb4d4b,
+    0 0 100px #eb4d4b;
+    animation-name: new;
+    animation-duration: 5s;
+    
+    
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 30px;
+    transition: 3s;
+    text-shadow: 0 0 5px #4834d4,
+    0 0 25px #eb4d4b,
+    0 0 50px #4834d4,
+    0 0 100px #eb4d4b;
+    animation-name: no;
+    animation-duration: 5s;
+
+}
+
+@keyframes new{
+    0%{
+        transform: translateX(-180px);
+        color: transparent;
+    }
+    50%{
+        transform: translateX(180px);
+        color: transparent;
+    }
+    100%{
+        transform: translateX(0px);
+        color: white;
+    }
+    
+
+}
+@keyframes no {
+    0%{
+        transform: translateY(-200px);
+        color: transparent;
+    }
+    50%{
+        transform: translateY(170px) ;
+        color: transparent;
+    }
+    100%{
+        transform: translateY(0px) ;
+        color: white;
+    }
+   
+}
+@keyframes fire{
+    from{
+        background: url(../image/fire.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+    }
+    to{
+        background: url(../image/fire.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+       
+
+    }
+}
+
+
+
