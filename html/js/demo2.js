@@ -8,6 +8,6 @@ console.log("B grade");
 else if(sub>=50){
 console.log("C grade");
 }
-if(sub>=90){
+if(sub<40){
 console.log("fail");
 }
