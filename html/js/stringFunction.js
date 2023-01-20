@@ -1,0 +1,17 @@
+var str1='Good morning';
+var str2='  good evening ';
+var n=10;
+console.log(str1.concat(' ',str2));
+console.log(str1.charAt(3));
+console.log(str1.indexOf('m'));
+console.log(str1.lastIndexOf('n'));
+console.log(str1.slice(5,10));
+console.log(str1.substring(5,12));
+console.log(str1.search('morning'));
+console.log(str1.length);
+console.log(str1.replace('Good','happy'));
+console.log(str1.toUpperCase());
+console.log(str1.toLowerCase());
+console.log(str2.trim());
+console.log(str2.trimStart());
+console.log(str2.trimEnd());
