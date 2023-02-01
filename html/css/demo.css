@@ -13,37 +13,28 @@ body{
     align-items: center;
 }
 .container{
-    width: 400px;
+    padding: 10px;
+    background-color: burlywood;
+    width: 500px;
     height: 400px;
-    /*display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    justify-content: center;
-    align-content: center;
-    */
-    
-    background-color: chocolate;
 }
-
-.box{
-    width: 100px;
-    height: 100px;
+ul{
+   display: grid;
+   grid-template-columns: repeat(3,100px);
+   grid-template-rows: repeat(3,100px);
+   column-gap: 20px;
+   row-gap: 10px;
+   justify-items: center;
+   align-items: start;
+   justify-content: center;
+   align-content: start;
+  /* grid-auto-flow: column;
+   grid-auto-columns: 300px;*/
+}
+li{
     background-color: chartreuse;
-    display: inline-block;
-    margin: auto;
-    line-height: 400px;
-}
-.box1{
-    position: relative;
-    background-color: rgb(36, 196, 30);
-    top: 200px;
-    left: 30%;
-}
-.box2{
-    background-color: crimson;
-    position: absolute;
-    top:300px;
-    left: 300px;
-    border-radius: 50px;
-
+    border: 1px solid white;
+    list-style: none;
+    text-align: center;
+    padding: 10px;
 }
