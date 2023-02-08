@@ -29,15 +29,24 @@ body{
     padding: 5px;
     object-fit: cover;
     object-position: center;
+    cursor: pointer;
 }
 #blur{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(29, 24, 24, 0.5);
     position: absolute;
     backdrop-filter: blur(2px);
     display: none;
 }
-.active{
+#blur.active{
     display: block;
+    display: grid;
+    place-items: center;
+}
+#img{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    padding: 5px;
 }
