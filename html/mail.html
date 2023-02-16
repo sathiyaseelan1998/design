@@ -10,20 +10,20 @@
 <body>
     <div class="container">
         <div class="head">
-            <h3>google</h3>
+            <img src="image/google.png" alt="logo">
             <h3>sign in</h3>
         </div>
         <form action="#">
             <div class="formControl">
-                <input type="text">
+                <input type="text" class="text" required>
                 <label>enter email</label>
             </div>
             <div class="formControl">
-                <input type="password">
+                <input type="password" class="text" id="password" required>
                 <label>enter password</label>
             </div>
             <div class="check">
-                <input type="checkbox" id="chek">
+                <input type="checkbox" id="check" checked>
                 <label for="check">Show Password</label>
             </div>
             <div class="footer">
@@ -33,5 +33,6 @@
 
         </form>
     </div>
+    <script src="js/mail.js"></script>
 </body>
 </html>
