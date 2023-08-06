@@ -4,3 +4,5 @@ console.log("first");
 
 let res=document.getElementById("result");
 res.innerHTML="jjj";
+
+let input=document.getElementById("input").value;
