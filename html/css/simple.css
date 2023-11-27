@@ -10,7 +10,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 .container{
     width: 300px;
@@ -48,4 +48,11 @@ h4{
     position: absolute;
     bottom: -30px;
     right: -30px;
+}
+h1{
+    font-size: 100px;
+    color: gray;
+    transform: rotate(90deg);
+    text-shadow: 2px 2px 10px #e84393,
+    3px 3px 7px #6b0c3a,4px 4px 20px #402caf,5px 5px 5px #14972a;
 }
