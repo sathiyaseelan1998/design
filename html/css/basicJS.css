@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#container > div{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    text-align: center;
+    line-height: 100px;
+}

@@ -42,6 +42,11 @@ nav .bg{
 	opacity: 0;
 	transition: .5s;
 }
+a:hover{
+	color: white;
+	transition: .5s;
+}
+
 nav:hover .bg{
 	opacity: 1;
 	color: white;
