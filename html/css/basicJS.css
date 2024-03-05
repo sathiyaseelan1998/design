@@ -19,3 +19,11 @@
     text-align: center;
     line-height: 100px;
 }
+.orange{
+    background-color: orange;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(131, 13, 68);
+}
